@@ -1,0 +1,197 @@
+.home-div{
+    height: 100vh;
+    left: 200px;
+    width: calc(100% - 200px);
+    font-family: "Istok Web", sans-serif;
+    padding: 0 20px;
+} 
+
+.barre{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.home-div h1{
+    margin: 10px;
+    font-size: 3rem;
+    color: #070d28;
+}
+
+.intensite{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 10px;
+    background-color: #070d28;
+    color: white;
+    border-radius: 10px;
+}
+
+.intensite ul{
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intensite li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px; 
+}
+
+.intensite-val{
+    padding: 5px;
+    border-radius: 15px;
+}
+.incident ul li{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff56;
+    padding: 5px;
+    font-family: "Istok Web", sans-serif;
+}
+
+.incident{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #070d28;
+    color: white;
+    border-radius: 10px;
+}
+
+.incident h2{
+    text-align: center;
+    margin: 10px;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 120px;
+    margin: 10px;
+    background-color: #070d28;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 0 10px 10px;
+}
+
+.total ul{
+    padding-left: 15px;
+}
+
+.total .gauche h2{
+    margin-left: 70%; ;
+}
+
+.total .droite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carre{
+    width: 20px;
+    height: 33%;
+    margin: auto 0;
+}
+
+.main-bas{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+
+.bas ul li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-family: "Istok Web", sans-serif;
+}
+
+.box-donnee{
+    width: 250px;
+    height: 180px;
+    margin: 10px;
+    padding: 3px 10px;
+    background-color: #070d28;
+    color: white;
+    border-radius: 10px;
+}
+.border-rouge{
+    border-top: 10px solid red;
+}
+.border-vert{
+    border-top: 10px solid green;
+}
+.border-orange{
+    border-top: 10px solid orange;
+}
+
+.box-donnee .train{
+    text-align: center;
+}
+.main-carte{
+    bottom: 10px;
+    right: 10px;
+    width: 900px    ;
+    height: 620px;
+    position: absolute;
+    background-image: url('../../assets/img/carte.png');
+    background-size: cover;
+}
+.prediction{
+    margin-left: 20px;
+    width: 750px;
+    height: 450px;
+    background-color: #070d28;
+    border-radius: 10px;
+}
+.prediction h1{
+    text-align: center;
+    color: white;
+    margin: 10px;
+    font-size: 40px;
+}
+
+.chart{
+    width: 98%;
+    height: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('../../assets/img/chart2.jpg');
+}
+
+
+
+.milieu{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background-image: url('../../assets/img/radar.png');
+    background-size: cover;
+    width: 91%;
+    height: 210px;
+    border-radius: 5%;
+}
+
+.gauche ul li{
+    font-size: 13px;
+}
+
+.gauche h2{
+    font-size: 35px;
+}
